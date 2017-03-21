@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
         //Initializing and getting reference to the eat cookie button.
         final Button eatButton = (Button) findViewById(R.id.eat_button);
         //Attaching click listener to eat cookie button.
-        eatButton.setOnClickListener(new View.OnClickListener() {
+        eatButton.setOnClickListener(new View.OnClickListener() { //implementing View.OnClickListener interface
+            //This interface have one abstract method onClick, we have to override and provide our own implementation.
             @Override
             public void onClick(View v) {
                 if (cookieThere){
