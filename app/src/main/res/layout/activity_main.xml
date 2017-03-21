@@ -21,6 +21,7 @@
         android:layout_height="wrap_content"
         android:paddingEnd="16dp"
         android:paddingStart="16dp"
+        android:layout_margin="8dp"
         android:text="@string/eat_cookie"
         android:textAlignment="center"
         android:textAppearance="?android:textAppearanceLarge"
