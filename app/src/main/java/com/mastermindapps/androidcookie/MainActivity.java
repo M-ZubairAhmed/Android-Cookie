@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
                     cookieImage.setImageResource(R.drawable.after_cookie);
                     cookieThere = false;
                 }
+                else {
+                    cookieImage.setImageResource(R.drawable.before_cookie);
+                    cookieThere = true;
+                }
             }
         });
     }
