@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cookie</string>
+    <string name="image_description">Image of android eating a cookie with udacity cup on left hand</string>
+    <string name="eat_cookie">Eat cookie</string>
+</resources>
